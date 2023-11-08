@@ -12,7 +12,10 @@
 	<form class="row g-3">
   <div class="col-md-4">
     <label for="validationDefault01" class="form-label">First Name</label>
-    <input type="text" class="form-control" id="validationDefault01 first-name-input" value="Mark" required>
+    <input type="text" class="form-control" id="validationDefault01 first-name-input" value="" required>
+	   <div class="valid-feedback">
+      Looks good!
+    </div>
   </div>
   <div class="col-md-4">
     <label for="validationDefault02" class="form-label">Last Name</label>
@@ -30,13 +33,13 @@
     <input type="text" class="form-control" id="validationDefault03 college-input" required>
   </div>
   <div class="col-md-3">
-    <label for="validationDefault04" class="form-label">Graduation Year</label>
-    <select class="form-select" id="validationDefault04" required>
-      <option selected disabled value="">Choose...</option>
-      <option>2020</option>
-      <option>2021</option>
-      <option>2022</option>
-      <option>2023</option>
+    <label for="grad-year-select" class="form-label">Graduation Year</label>
+    <select class="form-select" id="grad-year-select" aria-label="Default select example" required>
+      <option selected>Choose...</option>
+      <option value="1">2020</option>
+      <option value="2">2021</option>
+      <option value="3">2022</option>
+      <option value="4">2023</option>
     </select>
   </div>
   <div class="col-md-3">
